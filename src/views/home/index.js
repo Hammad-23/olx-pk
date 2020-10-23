@@ -5,7 +5,6 @@ import { Row, Col, Select} from 'antd';
 
 
 
-
 function Home(){
     return(
         <>
@@ -43,6 +42,32 @@ function Home(){
             </Col>
 
 
+        </Row>
+
+        <Row style={{display: 'flex',  alignItems: 'center'}}>
+            <Col>
+                <select style={{width:'180px',height:'42px'}}>
+                    <option>All Categories</option>
+                    <option>All Categories</option>
+                    <option>All Categories</option>
+                    <option>All Categories</option>
+                    <option>All Categories</option>
+                    <option>All Categories</option>
+                </select>
+            </Col>
+            <Col>
+
+              <a style={{color: 'black', textDecoration: 'none'}} href=''>Mobile Phone</a>
+              <a style={{color: 'black', textDecoration: 'none'}} href=''>cars</a>
+              <a style={{color: 'black', textDecoration: 'none'}} href=''>bikes</a>
+              <a style={{color: 'black', textDecoration: 'none'}} href=''>cars</a>
+              <a style={{color: 'black', textDecoration: 'none'}} href=''>Mobile Phone</a>
+              <a style={{color: 'black', textDecoration: 'none'}} href=''>cars</a>
+              <a style={{color: 'black', textDecoration: 'none'}} href=''>bikes</a>
+              <a style={{color: 'black', textDecoration: 'none'}} href=''>cars</a>
+              <a style={{color: 'black', textDecoration: 'none'}} href=''>bikes</a>
+            
+            </Col>
         </Row>
 
 
